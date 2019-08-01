@@ -1,0 +1,30 @@
+       .row.content {height: 1500px}
+         .sidenav {
+            /* position: relative; */
+            background-color: rgb(218, 228, 238);
+            height: 100%;
+            text-align: center;
+            /* width:0 5% 0 5%; */
+          }
+
+         footer {
+          background-image: ;
+          color: dimgrey;
+          padding: 15px;
+          font-size: 30%;
+          overflow: hidden;
+          text-align: center;
+          /* opacity: 50%; */
+         } 
+         .a{
+             font-size: 10px;
+             color: black;
+             text-align: center;
+         }
+          @media screen and (max-width: 767px) {
+          .sidenav {
+            height: auto;
+            padding: 15px;
+         }
+           .row.content {height: auto;} 
+         }
